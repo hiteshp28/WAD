@@ -75,7 +75,7 @@ This repository contains the laboratory assignments for the subject **Web Applic
 ### b. AWS Deployment (Mini Project)
 
 - Deployed the web application using:
-  - **AWS VPC** or **AWS Elastic Beanstalk**
+  - **AWS EC2** or **AWS Elastic Beanstalk**
 - Hosted the application and verified cloud deployment.
 
 ---
@@ -87,15 +87,10 @@ This repository contains the laboratory assignments for the subject **Web Applic
 - Angular, Node.js, Express.js, MongoDB
 - Docker
 - Git, GitHub
-- AWS (VPC / Elastic Beanstalk)
+- AWS (EC2 / Elastic Beanstalk)
 
 ---
 
-## 📌 Note
-
-Each assignment is organized in its own folder with appropriate substructure. Run instructions and requirements for each are provided in respective README files inside those folders (if applicable).
-
----
 
 ## 👨‍💻 Author
 
