@@ -1,0 +1,42 @@
+@use 'bootstrap/scss/bootstrap' as *;
+
+/* Global styles */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f1ee; // light warm background
+}
+
+main {
+  flex: 1;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+  background-color: #3b3a55; // dark desaturated violet
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(60, 64, 67, 0.15); // soft dark grey
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.4); // amber/yellow focus
+  border-color: #ffc107;
+}
+
+.btn-primary {
+  background-color: #198754; // emerald green
+  border-color: #198754;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #157347; // darker green on hover
+  border-color: #146c43;
+}
+
+/* You can add global styles to this file, and also import other style files */
